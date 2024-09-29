@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #252525 !important;
+    font-family: "Baloo Tamma 2" ,sans-serif;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid goldenrod;
+    transition: 0.5s ease;
+}
+.m-heading{
+    font-family: "Roboto Slab",sans-serif;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-image: url('https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+.main-row{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.main-row img{
+    width:auto;
+    height: 100vh;
+}
