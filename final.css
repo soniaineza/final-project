@@ -3,37 +3,64 @@ html {
 }
 
 body {
-    background: #252525 !important;
-    font-family: "Baloo Tamma 2" ,sans-serif;
+    background: #252525;
+    font-family: "Baloo Tamma 2", cursive;
 }
-.navigation-link{
-    border: 2px solid transparent;
+
+/* Main Heading Font */
+.m-heading {
+    font-family: "Roboto Slab", serif;
 }
-.navigation-link:hover{
-    text-decoration: none;
-    border-bottom: 2px solid goldenrod;
-    transition: 0.5s ease;
+
+.text-white {
+    color: white;
 }
-.m-heading{
-    font-family: "Roboto Slab",sans-serif;
-}
-.main-container{
+
+/* Main Container height*/
+.main-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-background-image: url('https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-   background-size: cover;
-   background-attachment: fixed;
+    background-image: url('gt.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Aligning items in main row */
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.main-row{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+
+/* Changing Name Font sixe */
+.main_row h1 {
+    font-size: 5rem;
+
 }
-.main-row img{
-    width:auto;
+
+/* Making the main image the size of the screen */
+.main_row img {
+    width: auto;
     height: 100vh;
+
+}
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+.about{
+    background: #313552;
+    border-radius: 0.5 rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09;
 }
